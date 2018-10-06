@@ -76,11 +76,9 @@
     main#accueil h1 {
         margin-top: 10vh;
     }
-}
-// Widescreens
 
-@include mediaXL {
     .projets {
         grid-template-columns: 1fr;
     }
 }
+
