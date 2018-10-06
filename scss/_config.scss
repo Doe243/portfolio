@@ -6,8 +6,8 @@ $show-home-image: true;
 
 $home-image: url(../img/background.jpg);
 
-
 $background-opacity: 0.9;
+
 
 @mixin easeOut {
     transition: all 0.5s ease-out;
@@ -36,6 +36,16 @@ $background-opacity: 0.9;
     }
 }
 
+
+//Set Text Color 
+
+@function set-text-color($color) {
+    @if (lightness($color) > 40) {
+        @return #000;
+    }@else {
+        @return #fff;
+    } 
+}
 //Media Query Mixins
 
 @mixin mediaSm {
