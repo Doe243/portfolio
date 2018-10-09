@@ -5,7 +5,7 @@ body {
     height: 100vh;
     background: #333 url('../img/android-wallpaper-city-dark-248159.jpg') no-repeat center center / cover;
     color: #ccc;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 .container {
